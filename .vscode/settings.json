@@ -1,0 +1,11 @@
+{
+    "team.showWelcomeMessage": false,
+    "editor.formatOnSave": true,
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
