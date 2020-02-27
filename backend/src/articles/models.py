@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Articles(models.Model):
+class Article(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()
 
