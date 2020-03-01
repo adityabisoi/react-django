@@ -1,24 +1,18 @@
 import React from 'react';
 import './App.css';
+import 'antd/dist/antd.css';
+import CustomLayout from './containers/CustomLayout'
+import ArticleListView from './containers/ArticleListView'; 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <CustomLayout>
+            <ArticleListView/>
+        </CustomLayout>
     </div>
   );
 }
 
-export default App;
+export default App
+
